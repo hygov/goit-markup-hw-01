@@ -1,0 +1,73 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575  */
+/* цвет белый #ffffff */
+/* акцент цвет #2196f3 */
+/* цвет героя #2F303A */
+/* вторичный цвет фона #F5F4FA */
+
+:root{
+    --primory-color: #212121;
+    --secondory-color: #757575;
+    --accent-color: #2196f3;
+    --primory-bgc-color: #ffffff;
+    --secondory-bgc-color: #f5f4fa;
+
+}
+
+body {
+    color: var(--primory-color);
+    background-color: var(--primory-bgc-color);
+}
+
+ul {
+    list-style: none;
+}
+/* navigation */
+.nav-list .nav-list__link {
+    color: var(--primory-color)
+}
+.nav-list .nav-list__link:focus,
+.nav-list .nav-list__link:hover {
+color: var(--accent-color);
+}
+.nav-list .nav-list__link.current{
+    color: var(--accent-color);
+}
+/* contact */
+.contact .contact-title{
+ color: var(--secondory-color);
+}
+.contact .contact-title:hover,
+.contact .contact-title:focus{
+    color: var(--accent-color);
+}
+/* hero */
+.hero-list .hero-list__title{
+    color: var(--primory-bgc-color);
+}
+.hero-list .hero-list__button{
+    color: var(--primory-bgc-color);
+    background-color: var(--accent-color)
+}
+/* advantage */
+.advantages .advantages-title{
+color: var(--primory-color);
+}
+.advantages .advantages-text{
+    color: var(--secondory-color);
+}
+/* photo work */
+.photo-work .photo-work__title{
+    color: var(--primory-color);
+}
+/* work-team */
+.work-team .work-team__title{
+    color: var(--primory-color);
+}
+.work-team .work-team__text{
+    color: var(--secondory-color)
+}
+/* footer address */
+.contact .contact-address{
+    color: var(--primory-bgc-color);
+}
