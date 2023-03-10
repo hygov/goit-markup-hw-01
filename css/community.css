@@ -26,16 +26,16 @@ ul {
 /* header and footer color */
 
 /* navigation */
-.nav-list .nav-list__link {
+.navigation .navigation-link {
     color: var(--primory-color)
 }
 
-.nav-list .nav-list__link:focus,
-.nav-list .nav-list__link:hover {
+.navigation .navigation-link:focus,
+.navigation .navigation-link:hover {
     color: var(--accent-color);
 }
 
-.nav-list .nav-list__link.current {
+.navigation .navigation-link.current {
     color: var(--accent-color);
 }
 
